@@ -1,0 +1,57 @@
+body, html {
+	padding: 0 12%;
+	font-family: Roboto;
+	background-color: whitesmoke;
+}
+@media only screen and (max-width: 600px) {
+	html, body {
+		padding: 0 3%;
+		font-size: 125%;
+	}
+	.side-by-side {
+		display: flex;
+		flex-direction: column;
+	}
+	.productImage {
+		width: 150%;
+	}
+	.on-top {
+		padding: 0;
+	}
+
+}
+p {
+	line-height: 150%;
+}
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 100%;
+	background-color: darkgrey;
+	border-radius: 4px;
+	margin: 15px 0px;
+	font-size:15	px;
+}
+.companyName {
+	text-decoration: bold;
+	color: blueviolet;
+	font-size: 150%;
+}
+.ProductName {
+	font-size: 220%;
+}
+.productImage {
+	width: 25%;
+	border-radius: 2%;
+}
+.side-by-side {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.on-top {
+	padding-left: 3%;
+	padding-right: 20%;
+}
